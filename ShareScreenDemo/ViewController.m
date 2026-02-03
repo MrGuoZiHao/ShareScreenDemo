@@ -34,7 +34,6 @@
         // 这里提换成你的 BroadcastExtension 的 Bundle Id
         _broadcastPickerView.preferredExtension = @"com.test.shareScreen.ShareScreenDemo.BroadcastExtension";
         _broadcastPickerView.showsMicrophoneButton = NO;
-        _broadcastPickerView.hidden = YES;
     }
     return _broadcastPickerView;
 }
